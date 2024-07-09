@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  background-color:rgb(152, 148, 165);
+
+}
+body {
+  min-height: 100%;
+  background-color:rgb(152, 148, 165);
+
+}
+#root {
+  
+
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color:rgb(152, 148, 165);
+}
+
+
+
+
+
+
+
+
+
