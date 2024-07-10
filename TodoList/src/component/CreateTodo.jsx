@@ -21,8 +21,8 @@ function CreateTodo() {
     <div className='mt-20'>
     <h1 className='text-4xl text-white font-bold'>Todo List</h1>
     <form onSubmit={handleForm} className='mt-10'>
-        <input type="text" placeholder='Enter task here' value={input} onChange={handleInput} className='input input-bordered input-info  max-w-xs mr-1 h-30 w-md'/>
-        <button type='submit' className='btn btn-accent'>Add Task</button>
+        <input type="text" placeholder='Enter task here' value={input} onChange={handleInput} className='input input-bordered input-info max-w-xs mr-1 h-30 w-md '/>
+        <button type='submit' className='btn btn-accent mt-2'>Add Task</button>
         
 
     </form>
