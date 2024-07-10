@@ -38,8 +38,8 @@ function ShowTodo() {
     }
   return (
     <div className='mt-10 px-2 py-2'>{
-        todos.map((todo)=><> <li key={todo.id} style={{width:"75%", marginLeft:"auto", marginRight:"auto"}} className='text-white mt-4 flex justify-between  list-none items-center bg-zinc-800 px-4 py-2 rounded '>{todo.text}
-        <div> <button className='ml-2 lg:mr-5' onClick={()=>handleEdit(todo.id, todo.text)}><i className="fa-regular fa-pen-to-square fa-lg" style={{color: "#ffffff"}}></i></button> <button className='ml-2' onClick={()=>{dispatch(removeTodo(todo.id)); toast.success("removed")}}><i className="fa-solid fa-trash fa-lg" style={{color:"#ff4747"}}></i></button></div></li></>
+        todos.map((todo)=><> <li key={todo.id} style={{width:"75%", marginLeft:"auto", marginRight:"auto"}} className='text-white mt-4 flex justify-between list-none items-center bg-zinc-900 px-4 py-2 rounded hover:bg-zinc-800 '>{todo.text}
+        <div> <button className='ml-2 lg:mr-5' onClick={()=>handleEdit(todo.id, todo.text)}><i className="fa-regular fa-pen-to-square fa-lg " style={{color: "#ffffff"}}></i></button> <button className='ml-2' onClick={()=>{dispatch(removeTodo(todo.id)); toast.success("removed")}}><i className="fa-solid fa-trash fa-lg" style={{color:"#ff4747"}}></i></button></div></li></>
         
       ) 
         }
